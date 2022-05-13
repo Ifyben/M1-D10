@@ -106,6 +106,16 @@
             p {
                 margin-bottom: 15px; 
             }
+            .bigger-font {
+                font-size: 2em;
+                font-weight: 800;
+            }
+            .hidden {
+                visibility: hidden;
+            }
+            .not-displayed {
+                display: none;   /*--takes the image away completely*/
+            }
         </style>
     </head>
 
@@ -113,7 +123,7 @@
         <h1>Here is a Heading</h1>
 
         <ol>
-            <li>First Element</li>
+            <li class="bigger-font">First Element</li>
             <li>Second Element</li>
             <li>Third Element</li>
             <li>Fourth Element</li>
@@ -133,7 +143,7 @@
                 <td>Column 1 content </td>
                 <td>
                     <a href="https://google.com">
-                        <img src="https://unsplash.it/200">
+                        <img class="hidden" src="https://unsplash.it/200">
                     </a>
                     <a href="https://google.com">I am a link</a>
                 </td>
