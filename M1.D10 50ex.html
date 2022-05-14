@@ -282,7 +282,7 @@
           console.log(arrayOfArrays)
 
           function returnLargest(array1, array2) {
-              array1.length >= array2.length ? array1 : array2
+              return array1.length >= array2.length ? array1 : array2
           }
           
           /* second solution
@@ -291,6 +291,21 @@
           } else {
               return array2
           }*/ 
+          console.log(returnLargest([1,2,3,4,5,6,7], [1,2,3,4]))
+
+          function returnLargestSum(array1, array2) {
+              let sum1 = 0 
+              for(let number of array1) {
+                  sum1 += number
+              }
+
+              let sum2 = 0
+              for(let number of array2) {
+                  sum2 += number
+              }
+              return sum1 >= sum2 ? sum1 : sum2
+          }
+          console.log(returnLargestSum([20, 10], [2, 3, 5]))
         
     </script>
 
