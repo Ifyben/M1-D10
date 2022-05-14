@@ -269,6 +269,17 @@
               return {max, min} 
           }
           console.log(getMaxMin(randomNumbers))
+
+          let arrayOfArrays = []
+
+          for(let i = 0; i < 10; i++) {
+              let innerArray = []
+              for(let j = 0; j < 10; j++) {
+                  innerArray.push(Math.round(Math.random() * 10))
+              }
+              arrayOfArrays.push(innerArray)
+          }
+          console.log(arrayOfArrays)
         
     </script>
 
