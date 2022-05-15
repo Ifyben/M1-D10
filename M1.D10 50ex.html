@@ -92,16 +92,16 @@
                 border-radius: 15px;
             }
             tr:nth-child(2) td:first-child {
-                border-top-left-radius: 1.5em;
+                border-top-left-radius: 1em;
             }
             tr:nth-child(2) td:last-child {
-                border-top-right-radius: 1.5em;
+                border-top-right-radius: 1em;
             }
             tr:last-child td:first-child {
-                border-bottom-left-radius: 1.5em;
+                border-bottom-left-radius: 1em;
             }
             tr:last-child td:last-child {
-                border-bottom-right-radius: 1.5em;
+                border-bottom-right-radius: 1em;
             }
             p {
                 margin-bottom: 15px; 
@@ -311,6 +311,10 @@
           const container = document.getElementById("container")
 
           const tds = document.querySelectorAll("td") 
+
+          tds.forEach((td) => {
+              td.innerText = "text"
+          });
     </script>
 
 
