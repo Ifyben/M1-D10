@@ -356,9 +356,17 @@
           console.onload = function() {
               console.log("Page loaded");
           }
+
+          const addLi = function() {
+              const ul = document.querySelector("ul")
+              const li = document.createElement("Li")
+              li.innerText = ("new list item")
+              ul.appendChild(li) 
+          };
+          addLi();
           
     </script>
 
 
     </body>
-</html>
+</html> 
