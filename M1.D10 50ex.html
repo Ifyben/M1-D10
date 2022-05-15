@@ -334,6 +334,13 @@
               
           };
           addRow();
+
+          const addClassToRow = function() {
+              const trs = document.querySelectorAll("tr");
+              trs.forEach((tr) => {
+                  tr.classList.add("test");
+              })
+          }
           
     </script>
 
