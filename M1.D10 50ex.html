@@ -321,6 +321,20 @@
               h1.innerText=content;
           };
           changeH1("new text");
+
+          const addRow = function() {
+              const tbody = document.querySelector("tbody");
+              const tr = document.createElement("tr");
+              for(let i = 0; i < 5; i++) {
+                  const td = document.createElement("td");
+                  td.innerText = i + 1;
+                  tr.appendChild(td);
+              }
+              tbody.appendChild(tr);
+              
+          };
+          addRow();
+          
     </script>
 
 
