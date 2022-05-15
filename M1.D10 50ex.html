@@ -126,6 +126,9 @@
                 border-bottom: 1px dotted red;
                 border-top: 1px dotted red
             }
+            .background-red {
+                background-color: red;
+            }
         </style>
     </head>
 
@@ -312,9 +315,9 @@
 
           const tds = document.querySelectorAll("td") 
 
-          tds.forEach((td) => {
+          /*tds.forEach((td) => {
               td.innerText = "text"
-          });
+          });*/
 
           const changeH1 = function(content) {
               const h1 = document.querySelector("h1");
@@ -341,6 +344,14 @@
                   tr.classList.add("test");
               })
           }
+
+          const addRedBackground = function() {
+              const links = document.querySelectorAll("a");
+              links.forEach((link) => {
+                  link.classList.add("background-red");
+              });
+          };
+          addRedBackground();
           
     </script>
 
