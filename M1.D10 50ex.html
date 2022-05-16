@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <!--
+  <!--
 
         HTML EXERCISES
 
@@ -68,311 +68,315 @@
         50) Write a function to remove the table from the page
     --><head>
     <title>M1-D10-Exercises</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-        <style>
-            td {
-                min-width: 140px;
-                border: 1px solid green;
-            }
-            body {
-                max-width: 50%;
-                margin-left: 25%;
-                margin-right: 25%;
-            }
-            h1 {
-                text-align: center;
-            }
-            a {
-                color: red;
-            }
-            .width-border {
-                border: 1px solid black; 
-            }
-            table {
-                border-radius: 15px;
-            }
-            tr:nth-child(2) td:first-child {
-                border-top-left-radius: 1em;
-            }
-            tr:nth-child(2) td:last-child {
-                border-top-right-radius: 1em;
-            }
-            tr:last-child td:first-child {
-                border-bottom-left-radius: 1em;
-            }
-            tr:last-child td:last-child {
-                border-bottom-right-radius: 1em;
-            }
-            p {
-                margin-bottom: 15px; 
-            }
-            .bigger-font {
-                font-size: 2em;
-                font-weight: 800;
-            }
-            .hidden {
-                visibility: hidden;
-            }
-            .not-displayed {
-                display: none;   /*--takes the image away completely*/
-            }
-            tr td:first-child {
-                border-left: 1px dotted red;
-            }
-            tr td:last-child {
-                border-right: 1px dotted red;
-            }
-            td {
-                border-bottom: 1px dotted red;
-                border-top: 1px dotted red
-            }
-            .background-red {
-                background-color: red;
-            }
-        </style>
-    </head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <style>
+      td {
+        min-width: 140px;
+        border: 1px solid green;
+      }
+      body {
+        max-width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+      }
+      h1 {
+        text-align: center;
+      }
+      a {
+        color: red;
+      }
+      .width-border {
+        border: 1px solid black;
+      }
+      table {
+        border-radius: 15px;
+      }
+      tr:nth-child(2) td:first-child {
+        border-top-left-radius: 1em;
+      }
+      tr:nth-child(2) td:last-child {
+        border-top-right-radius: 1em;
+      }
+      tr:last-child td:first-child {
+        border-bottom-left-radius: 1em;
+      }
+      tr:last-child td:last-child {
+        border-bottom-right-radius: 1em;
+      }
+      p {
+        margin-bottom: 15px;
+      }
+      .bigger-font {
+        font-size: 2em;
+        font-weight: 800;
+      }
+      .hidden {
+        visibility: hidden;
+      }
+      .not-displayed {
+        display: none; /*--takes the image away completely*/
+      }
+      tr td:first-child {
+        border-left: 1px dotted red;
+      }
+      tr td:last-child {
+        border-right: 1px dotted red;
+      }
+      td {
+        border-bottom: 1px dotted red;
+        border-top: 1px dotted red;
+      }
+      .background-red {
+        background-color: red;
+      }
+      ol li {
+          margin-bottom: 15px;
+      }
+    </style>
+  </head>
 
-    <body>
-        <h1>Here is a Heading</h1>
+  <body>
+    <h1>Here is a Heading</h1>
 
-        <ol>
-            <li class="bigger-font">First Element</li>
-            <li>Second Element</li>
-            <li>Third Element</li>
-            <li>Fourth Element</li>
-            <li>Fifth Element</li>
-        </ol>
-        <hr>
+    <ol>
+      <li class="bigger-font">First Element</li>
+      <li>Second Element</li>
+      <li>Third Element</li>
+      <li>Fourth Element</li>
+      <li>Fifth Element</li>
+    </ol>
+    <hr />
 
-        <table>
-            <tr>
-                <th>Column 1</th>
-                <th>Column 2</th>
-                <th>Column 3</th>
-                <th>Column 4</th>
-                <th>Column 5</th>
-            </tr>
-            <tr>
-                <td>Column 1 content </td>
-                <td>
-                    <a href="https://google.com" target="_blank">
-                        <img class="hidden" src="https://unsplash.it/200"  >
-                    </a>
-                    <a href="https://google.com">I am a link</a>
-                </td>
-                <td>Column 3 content </td>
-                <td>Column 4 content </td>
-                <td>Column 5 content </td>
-            </tr>
-            <tr>
-                <td>Column 1 content </td>
-                <td> 
-                    <a href="https://google.com" target="_blank">
-                        <img src="https://unsplash.it/200">
-                    </a>
-                    <a href="https://google.com">I am a link</a>
-                </td>
-                <td>Column 3 content </td>
-                <td colspan="2">Column 4 content && Column 5 content </td>
-            </tr>
-            <tr>
-                <td>Column 1 content </td>
-                <td> 
-                    <a href="https://google.com" target="_blank">
-                        <img src="https://unsplash.it/200">
-                    </a>
-                    <a href="https://google.com">I am a link</a>
-                </td>
-                <td>Column 3 content </td>
-                <td>Column 4 content </td>
-                <td>Column 5 content </td>
-            </tr>
-            <tr>
-                <td>Column 1 content </td>
-                <td> 
-                    <a href="https://google.com" target="_blank">
-                        <img src="https://unsplash.it/200">
-                    </a>
-                    <a href="https://google.com">I am a link</a>
-                </td>
-                <td>Column 3 content </td>
-                <td>Column 4 content </td>
-                <td>Column 5 content </td>
-            </tr>
-            
-        </table>
-        <div>
-            <p>
-                Here is a paragraph
-            </p>
-            <ul>
-                <li>First Element</li>
-                <li>First Element</li>
-                <li>First Element</li>
-                <li>First Element</li>
-                <li>First Element</li>
-            </ul>
-        </div>
+    <table>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+        <th>Column 4</th>
+        <th>Column 5</th>
+      </tr>
+      <tr>
+        <td>Column 1 content</td>
+        <td>
+          <a href="https://google.com" target="_blank">
+            <img class="hidden" src="https://unsplash.it/200" />
+          </a>
+          <a href="https://google.com">I am a link</a>
+        </td>
+        <td>Column 3 content</td>
+        <td>Column 4 content</td>
+        <td>Column 5 content</td>
+      </tr>
+      <tr>
+        <td>Column 1 content</td>
+        <td>
+          <a href="https://google.com" target="_blank">
+            <img src="https://unsplash.it/200" />
+          </a>
+          <a href="https://google.com">I am a link</a>
+        </td>
+        <td>Column 3 content</td>
+        <td colspan="2">Column 4 content && Column 5 content</td>
+      </tr>
+      <tr>
+        <td>Column 1 content</td>
+        <td>
+          <a href="https://google.com" target="_blank">
+            <img src="https://unsplash.it/200" />
+          </a>
+          <a href="https://google.com">I am a link</a>   
+        </td>
+        <td>Column 3 content</td>
+        <td>Column 4 content</td>
+        <td>Column 5 content</td>
+      </tr>
+      <tr>
+        <td>Column 1 content</td>
+        <td>
+          <a href="https://google.com" target="_blank">
+            <img src="https://unsplash.it/200" />
+          </a>
+          <a href="https://google.com">I am a link</a>
+        </td>
+        <td>Column 3 content</td>
+        <td>Column 4 content</td>
+        <td>Column 5 content</td>
+      </tr>
+    </table>
+    <div>
+      <p>Here is a paragraph</p>
+      <ul>
+        <li>First Element</li>
+        <li>First Element</li>
+        <li>First Element</li>
+        <li>First Element</li>
+        <li>First Element</li>
+      </ul>
+    </div>
 
     <footer>
-        <div>
-            Some information about the page creator:
-        </div>
-        <div>
-            My name is Beauty and this is an assignment given to me by my teacher.
-            I hope you learn from my homework 🙂
-        </div>
+      <div>Some information about the page creator:</div>
+      <div>
+        My name is Beauty and this is an assignment given to me by my teacher. I
+        hope you learn from my homework 🙂
+      </div>
     </footer>
 
-      <script>
-          let x = "John"
-          let y = "Doe" 
-          console.log(x + "<>" + y) 
+    <script>
+      let x = "John";
+      let y = "Doe";
+      console.log(x + "<>" + y);
 
-          const person = {
-              name: "Ifechukw Beauty",
-              surname: "Azubuike",
-              email: "ifechukwu.azubuike@gmail.com"
+      const person = {
+        name: "Ifechukw Beauty",
+        surname: "Azubuike",
+        email: "ifechukwu.azubuike@gmail.com",
+      };
+
+      delete person.email;
+      console.log(person);
+
+      let myArray = [];
+      for (let i = 0; i < 10; i++) {
+        myArray.push("New Value: " + i);
+      }
+      console.log(myArray);
+
+      for (let string of myArray) {
+        console.log(string);
+      }
+
+      let randomNumbers = [];
+      for (let i = 0; i < 100; i++) {
+        randomNumbers.push(Math.round(Math.random() * 100));
+      }
+      console.log(randomNumbers);
+
+      function getMaxMin(numbers) {
+        let max = numbers[0];
+        let min = numbers[0];
+        for (let i = 0; i < numbers.length - 1; i++) {
+          if (numbers[i] > max) {
+            max = numbers[i];
           }
-
-          delete person.email
-          console.log(person)
-
-          let myArray = []
-          for(let i = 0; i < 10; i++) {
-              myArray.push("New Value: " + i)
+          if (numbers[i] < min) {
+            min = numbers[i];
           }
-          console.log(myArray) 
-
-          for(let string of myArray) {
-              console.log(string) 
-          }
-
-          let randomNumbers = []
-              for(let i = 0; i < 100; i++) {
-                  randomNumbers.push(Math.round(Math.random() * 100))
-              }
-              console.log(randomNumbers)
-
-          function getMaxMin(numbers) {
-            let max = numbers[0]
-              let min = numbers[0]
-              for(let i = 0; i < numbers.length - 1; i++){
-                if(numbers[i] > max) {
-                    max = numbers[i]
-                }
-                if(numbers[i] < min) {
-                    min = numbers[i] 
-                }
-            }/*
+        } /*
               for(let number of numbers) {
                   max = number > max ? number : max
                   min = number < min ? number : min
               }*/
-              return {max, min} 
-          }
-          console.log(getMaxMin(randomNumbers))
+        return { max, min };
+      }
+      console.log(getMaxMin(randomNumbers));
 
-          let arrayOfArrays = []
+      let arrayOfArrays = [];
 
-          for(let i = 0; i < 10; i++) {
-              let innerArray = []
-              for(let j = 0; j < 10; j++) {
-                  innerArray.push(Math.round(Math.random() * 10))
-              }
-              arrayOfArrays.push(innerArray)
-          }
-          console.log(arrayOfArrays)
+      for (let i = 0; i < 10; i++) {
+        let innerArray = [];
+        for (let j = 0; j < 10; j++) {
+          innerArray.push(Math.round(Math.random() * 10));
+        }
+        arrayOfArrays.push(innerArray);
+      }
+      console.log(arrayOfArrays);
 
-          function returnLargest(array1, array2) {
-              return array1.length >= array2.length ? array1 : array2
-          }
-          
-          /* second solution
+      function returnLargest(array1, array2) {
+        return array1.length >= array2.length ? array1 : array2;
+      }
+
+      /* second solution
           if(array1.length >= array2.length) {
               return array1
           } else {
               return array2
-          }*/ 
-          console.log(returnLargest([1,2,3,4,5,6,7], [1,2,3,4]))
+          }*/
+      console.log(returnLargest([1, 2, 3, 4, 5, 6, 7], [1, 2, 3, 4]));
 
-          function returnLargestSum(array1, array2) {
-              let sum1 = 0 
-              for(let number of array1) {
-                  sum1 += number
-              }
+      function returnLargestSum(array1, array2) {
+        let sum1 = 0;
+        for (let number of array1) {
+          sum1 += number;
+        }
 
-              let sum2 = 0
-              for(let number of array2) {
-                  sum2 += number
-              }
-              return sum1 >= sum2 ? sum1 : sum2
-          }
-          console.log(returnLargestSum([20, 10], [2, 3, 5]))
-        
+        let sum2 = 0;
+        for (let number of array2) {
+          sum2 += number;
+        }
+        return sum1 >= sum2 ? sum1 : sum2;
+      }
+      console.log(returnLargestSum([20, 10], [2, 3, 5]));
 
-          const container = document.getElementById("container")
+      const container = document.getElementById("container");
 
-          const tds = document.querySelectorAll("td") 
+      const tds = document.querySelectorAll("td");
 
-          /*tds.forEach((td) => {
+      /*tds.forEach((td) => {
               td.innerText = "text"
           });*/
 
-          const changeH1 = function(content) {
-              const h1 = document.querySelector("h1");
-              h1.innerText=content;
-          };
-          changeH1("new text");
+      const changeH1 = function (content) {
+        const h1 = document.querySelector("h1");
+        h1.innerText = content;
+      };
+      changeH1("new text");
 
-          const addRow = function() {
-              const tbody = document.querySelector("tbody");
-              const tr = document.createElement("tr");
-              for(let i = 0; i < 5; i++) {
-                  const td = document.createElement("td");
-                  td.innerText = i + 1;
-                  tr.appendChild(td);
-              }
-              tbody.appendChild(tr);
-              
-          };
-          addRow();
+      const addRow = function () {
+        const tbody = document.querySelector("tbody");
+        const tr = document.createElement("tr");
+        for (let i = 0; i < 5; i++) {
+          const td = document.createElement("td");
+          td.innerText = i + 1;
+          tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+      };
+      addRow();
 
-          const addClassToRow = function() {
-              const trs = document.querySelectorAll("tr");
-              trs.forEach((tr) => {
-                  tr.classList.add("test");
-              })
-          }
+      const addClassToRow = function () {
+        const trs = document.querySelectorAll("tr");
+        trs.forEach((tr) => {
+          tr.classList.add("test");
+        });
+      };
 
-          const addRedBackground = function() {
-              const links = document.querySelectorAll("a");
-              links.forEach((link) => {
-                  link.classList.add("background-red");
-              });
-          };
-          addRedBackground();
+      const addRedBackground = function () {
+        const links = document.querySelectorAll("a");
+        links.forEach((link) => {
+          link.classList.add("background-red");
+        });
+      };
+      addRedBackground();
 
-          console.onload = function() {
-              console.log("Page loaded");
-          }
+      console.onload = function () {
+        console.log("Page loaded");
+      };
 
-          const addLi = function() {
-              const ul = document.querySelector("ul")
-              const li = document.createElement("Li")
-              li.innerText = ("new list item")
-              ul.appendChild(li) 
-          };
-          addLi();
+      const addLi = function () {
+        const ul = document.querySelector("ul");
+        const li = document.createElement("Li");
+        li.innerText = "new list item";
+        ul.appendChild(li);
+      };
+      addLi();
 
-          const emptyList = function(){
-              const ul = document.querySelector("ul");
-              ul.innerHTML = ""
-          };
-          emptyList();
-          
+      const emptyList = function () {
+        const ul = document.querySelector("ul");
+        ul.innerHTML = "";
+      };
+      emptyList();
+      
+
+      const addAlertToLinks = function() {
+          const links = document.querySelectorAll("a")
+
+          for(let i = 0; i < links.length; i++) {
+            links[i].addEventListener("mouseover", function(event) {
+                alert("you're welcome here")
+          })
+        }
+      }  
     </script>
-
-
-    </body>
-</html> 
+  </body>
+</html>
